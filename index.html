@@ -112,16 +112,16 @@
              </div>
           </div>
         </section> 
-    <!-- CARDS- se incluyen las clases .resize (para las imagenes)  .fondo .alinear .centrar-->
+    <!-- Row -Columns- se incluyen las clases .resize (para las imagenes)  .fondo .alinear .centrar-->
         <section id="destacados" class="fondo">
           <h2>Destacados</h2>
           <hr>
-          <div class="card-group row-cols-4-sm">
-                  <div class="card text-white bg-info">
-                    <img src="assets/img/card1.jpg" class="card-img-top resize" alt="Torres del Paine">
-                      <div class="card-body">
-                        <h5 class="card-title centrar">TORRES DEL PAINE</h5>
-                        <p class="card-text alinear">Sorprenderte con las increíbles formas de las montañas, 
+          <div class="container-fluid text-white bg-info">
+            <div class="row">
+                  <div class="col-sm-3 py-4">
+                    <img src="assets/img/card1.jpg" class="mx-auto resize" alt="Torres del Paine">
+                        <h5 class="centrar">TORRES DEL PAINE</h5>
+                        <p class="alinear">Sorprenderte con las increíbles formas de las montañas, 
                           los glaciares de un azul profundo, los sobrecogedores y 
                           hermosos bosques del Parque Nacional Torres del Paine en esta versión 
                           corta del mundialmente famoso W Trek.
@@ -129,45 +129,40 @@
                         <button type="button" class=" btn btn-outline-light" data-toggle="modal" data-target="#torres">
                           conocer más
                         </button>
-                      </div>
                   </div>
-                  <div class="card text-white bg-info">
-                    <img src="assets/img/card2.jpg" class="card-img-top resize" alt="los flamencos">
-                      <div class="card-body">
-                        <h5 class="card-title centrar">LOS FLAMENCOS </h5>
-                        <p class="card-text alinear">La unidad Los Flamencos está ubicada en la Región de Antofagasta,
+                  <div class="col-sm-3 py-4">
+                    <img src="assets/img/card2.jpg" class="mx-auto resize" alt="los flamencos">
+                        <h5 class="centrar">LOS FLAMENCOS </h5>
+                        <p class="alinear">La unidad Los Flamencos está ubicada en la Región de Antofagasta,
                            comuna de San Pedro de Atacama, provincia del Loa. Fue creada el día 17 de octubre de 1990,
-                            por Decreto Supremo nº 50 del Ministerio de Agricultura.</p>
+                            por Decreto Supremo nº 50 del Ministerio de Agricultura.
+                        </p>
                         <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#flamencos">
                           conocer más
                         </button>
-                      </div>
                   </div>
-                  <div class="card text-white bg-info">
-                    <img src="assets/img/card3.jpg" class="card-img-top resize" alt="Laguna Chaxa">
-                      <div class="card-body">
-                        <h5 class="card-title centrar">LAGUNA CHAXA</h5>
-                        <p class="card-text alinear">¡Qué lugar más especial! Rodeados de volcanes, montañas y cordilleras, 
+                  <div class="col-sm-3 py-4">
+                    <img src="assets/img/card3.jpg" class="mx-auto resize" alt="Laguna Chaxa">
+                        <h5 class="centrar">LAGUNA CHAXA</h5>
+                        <p class="alinear">¡Qué lugar más especial! Rodeados de volcanes, montañas y cordilleras, 
                           esta laguna nos colma una paz indescriptible apenas comenzamos nuestro recorrido hacia sus aguas 
                           ricas en plancton y crustáceos.</p>
                         <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#chaxa">
                           conocer más
                         </button>
-                      </div>
                   </div>
-                  <div class="card text-white bg-info">
-                    <img src="assets/img/card4.jpg" class="card-img-top resize" alt="Valdivia">
-                      <div class="card-body">
-                        <h5 class="card-title centrar">VALDIVIA</h5>
-                        <p class="card-text alinear">Ríos y torreones marcan la identidad de la impresionante Valdivia.
+                  <div class="col-sm-3 py-4 pl-2">
+                      <img src="assets/img/card4.jpg" class="mx-auto resize" alt="Valdivia">
+                        <h5 class="centrar">VALDIVIA</h5>
+                        <p class="alinear">Ríos y torreones marcan la identidad de la impresionante Valdivia.
                            ¡Conoce la ciudad austral más antigua del mundo! Navega por su principal río, 
                            el Calle Calle. Disfruta de los mejores productos del mar en el Mercado Fluvial
                         </p>
                         <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#valdivia">
                           conocer más
                         </button>
-                      </div>
                   </div>
+             </div>
             </div>
         </section>
     <!-- Modal CARD #1 -Torres -->
