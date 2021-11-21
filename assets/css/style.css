@@ -42,8 +42,8 @@ hr{
 .resize {
     height: auto;
     width: auto;
-    max-height: 200px;
-    max-width: 400px;
+    max-height: 150px;
+    max-width: 300px;
     margin: 10px;
 }
 
